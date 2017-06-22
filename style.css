@@ -1,0 +1,104 @@
+body {
+    background-color: #777
+}
+
+.container {
+    max-width: 980px
+}
+
+#header {
+    font-family: Arial;
+    text-align: center;
+    margin: 10px 40px 2px 40px;
+    padding: 35px 40px 35px 40px;
+    background-color: #ebebeb;
+    color: #777;
+}
+
+#nav {
+    font-family: Arial;
+    text-align: center;
+    margin: 10px 40px 2px 40px;
+    padding: 35px 40px 35px 40px;
+    background-color: #ebebeb;
+    color: #777;
+}
+
+#section {
+    font-family: Arial;
+    text-align: center;
+    margin: 10px 0px 10px 40px;
+    padding: 10px 2px 5px 2px;
+    background-color: #ebebeb;
+    color: #777;
+    float: left;
+    width: 50%;
+}
+
+#article {
+    font-family: Arial;
+    text-align: center;
+    background-color: #777;
+    color: #ebebeb;
+    margin: 20px 10px 20px 10px;
+    padding: 20px 10px 20px 10px;
+}
+
+#headers {
+    font-family: Arial;
+    text-align: center;
+    background-color: #ebebeb;
+    color: #777;
+    margin: 10px 20px 10px 20px;
+    padding: 10px 40px 10px 40px;
+}
+
+#p {
+    font-family: Arial;
+    text-align: center;
+    background-color: #ebebeb;
+    color: #777;
+    margin: 10px 20px 20px 20px;
+    padding: 10px 40px 10px 40px;
+}
+
+#aside {
+    font-family: Arial;
+    text-align: center;
+    background-color: #ebebeb;
+    color: #777;
+    float: right;
+    width: 25%;
+    margin: 10px 40px 10px 0px;
+    padding: 35px 40px 191px 40px;
+}
+
+#footer {
+    font-family: Arial;
+    text-align: center;
+    background-color: #ebebeb;
+    color: #777;
+    float: left;
+    clear: both;
+    width: 85%;
+    margin: 10px 40px 2px 40px;
+    padding: 35px 40px 35px 40px;
+}
+
+@media screen and (max-width: 640px) {
+    #section {
+        color: red
+    }
+}
+
+@media screen and (max-width: 768px) {
+    #section {
+        color: green
+    }
+}
+
+@media screen and (max-width: 980px) {
+    #section {
+        color: blue
+    }
+}
